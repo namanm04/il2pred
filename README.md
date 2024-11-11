@@ -17,7 +17,7 @@ il2Pred -h
 
 Standalone version of il2Pred is written in python3 and the following libraries are necessary for a successful run:
 
-- scikit-learn = 0.24.1
+- scikit-learn = 1.5.2
 - Pandas
 - Numpy
 - python - 3.12.2 
