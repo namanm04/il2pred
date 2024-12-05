@@ -124,27 +124,26 @@ def filter_and_scale_data(dpc_file, len_file, selected_cols_file, scaler_path, o
 
 
 def prediction(inputfile1, model, out):
-    file_name=inputfile1
-    file_name1=out
+    file_name = inputfile1
+    file_name1 = out
     # Load the model
     clf = joblib.load(model)
    
     # Load the input data (seq.scaled or similar)
     data_test = np.loadtxt(file_name, delimiter=',')
    
-    # Prepare the test data
-    X_test = data_test
+    # Ensure X_test is always 2D, even for a single sequence
+    X_test = data_test if len(data_test.shape) > 1 else data_test.reshape(1, -1)
    
     # Get prediction probabilities
     y_p_score1 = clf.predict_proba(X_test)
    
-    # Convert the probabilities to a list and extract the last column (assumed to be the class 1 probability)
-    y_p_s1 = y_p_score1.tolist()
-    df = pd.DataFrame(y_p_s1)
-    df_1 = df.iloc[:, -1]
+    # Extract the class 1 probabilities
+    y_p_s1 = y_p_score1[:, 1]  # Class 1 probabilities (second column)
    
-    # Save the predictions to the output file
-    df_1.to_csv(file_name1, index=None, header=False)
+    # Convert to DataFrame and save the probabilities
+    df = pd.DataFrame(y_p_s1)
+    df.to_csv(file_name1, index=None, header=False)
 
 def class_assignment(file1,thr,out):
     df1 = pd.read_csv(file1, header=None)
