@@ -406,17 +406,17 @@ if job==1:
         os.remove('seq.scaled')
         os.remove('Sequence_1')
     elif Model==2:
-        merci = nf_path + 'merci/MERCI_motif_locator.pl'
-        motifs_p = nf_path + 'motifs1/pos_motif.txt'
-        motifs_n = nf_path + 'motifs1/neg_motif.txt'
+        merci = nf_path + '/merci/MERCI_motif_locator.pl'
+        motifs_p = nf_path + '/motifs1/pos_motif.txt'
+        motifs_n = nf_path + '/motifs1/neg_motif.txt'
         dpc_comp(seq,  'seq.dpc')
         len_comp(seq,  'seq.len')
         os.system("perl -pi -e 's/,$//g' " +   "seq.dpc")
         os.system("perl -pi -e 's/,$//g' " +   "seq.len")
         filter_and_scale_data(dpc_file= 'seq.dpc', len_file= 'seq.len', selected_cols_file= 'model1/dpc_len_feat_sel.txt', scaler_path= 'model1/dpc_len_feat_scalar.pkl', output_file= 'seq.scaled')
         prediction( 'seq.scaled', 'model1/dpc_len_feat_sel_model.pkl', 'seq.pred')
-        os.system("perl " + merci + " -p " +  "Sequence_1" +  " -i " + motifs_p + " -o " +  "merci_p.txt")
-        os.system("perl " + merci + " -p " + "Sequence_1" +  " -i " + motifs_n + " -o " +  "merci_n.txt")
+        os.system("perl " + merci + " -p " +  "Sequence_1" +  " -i " + motifs_p + " -c BETTS-RUSSELL -o " + "merci_p.txt")
+        os.system("perl " + merci + " -p " + "Sequence_1" +  " -i " + motifs_n + " -c BETTS-RUSSELL -o " + "merci_n.txt")
         MERCI_Processor_p( "merci_p.txt",  'merci_output_p.csv',seqid)
         Merci_after_processing_p( 'merci_output_p.csv',  'merci_hybrid_p.csv')
         MERCI_Processor_n( "merci_n.txt" , 'merci_output_n.csv',seqid)
@@ -481,17 +481,17 @@ elif job==2:
         os.remove('seq.scaled')
         os.remove('Sequence_1')
     elif Model==2:
-        merci = nf_path + 'merci/MERCI_motif_locator.pl'
-        motifs_p = nf_path + 'motifs2/pos_motif.txt'
-        motifs_n = nf_path + 'motifs2/neg_motif.txt'
+        merci = nf_path + '/merci/MERCI_motif_locator.pl'
+        motifs_p = nf_path + '/motifs2/pos_motif.txt'
+        motifs_n = nf_path + '/motifs2/neg_motif.txt'
         dpc_comp(seq,  'seq.dpc')
         len_comp(seq,  'seq.len')
         os.system("perl -pi -e 's/,$//g' " +   "seq.dpc")
         os.system("perl -pi -e 's/,$//g' " +   "seq.len")
         filter_and_scale_data(dpc_file= 'seq.dpc', len_file= '/seq.len', selected_cols_file= 'model2/dpc_len_feat_sel.txt', scaler_path= 'model2/dpc_len_feat_scalar.pkl', output_file= 'seq.scaled')
         prediction( 'seq.scaled','model2/dpc_len_feat_sel_model.pkl', 'seq.pred')
-        os.system("perl " + merci + " -p " +  "Sequence_1" +  " -i " + motifs_p + " -o " +  "merci_p.txt")
-        os.system("perl " + merci + " -p " + "Sequence_1" +  " -i " + motifs_n + " -o " +  "merci_n.txt")
+        os.system("perl " + merci + " -p " +  "Sequence_1" +  " -i " + motifs_p + " -c BETTS-RUSSELL -o " + "merci_p.txt")
+        os.system("perl " + merci + " -p " + "Sequence_1" +  " -i " + motifs_n + " -c BETTS-RUSSELL -o " + "merci_n.txt")
         MERCI_Processor_p( "merci_p.txt",  'merci_output_p.csv',seqid)
         Merci_after_processing_p( 'merci_output_p.csv',  'merci_hybrid_p.csv')
         MERCI_Processor_n( "merci_n.txt" , 'merci_output_n.csv',seqid)
@@ -557,17 +557,17 @@ elif job==3:
         os.remove('seq.scaled')
         os.remove('Sequence_1')
     elif Model==2:
-        merci = nf_path + 'merci/MERCI_motif_locator.pl'
-        motifs_p = nf_path + 'motifs3/pos_motif.txt'
-        motifs_n = nf_path + 'motifs3/neg_motif.txt'
+        merci = nf_path + '/merci/MERCI_motif_locator.pl'
+        motifs_p = nf_path + '/motifs3/pos_motif.txt'
+        motifs_n = nf_path + '/motifs3/neg_motif.txt'
         dpc_comp(seq,  'seq.dpc')
         len_comp(seq,  'seq.len')
         os.system("perl -pi -e 's/,$//g' " +   "seq.dpc")
         os.system("perl -pi -e 's/,$//g' " +   "seq.len")
         filter_and_scale_data(dpc_file= 'seq.dpc', len_file= 'seq.len', selected_cols_file= 'model3/dpc_len_feat_sel.txt', scaler_path= 'model3/dpc_len_feat_scalar.pkl', output_file= 'seq.scaled')
         prediction( 'seq.scaled', 'model3/dpc_len_feat_sel_model.pkl', 'seq.pred')
-        os.system("perl " + merci + " -p " +  "Sequence_1" +  " -i " + motifs_p + " -o " +  "merci_p.txt")
-        os.system("perl " + merci + " -p " + "Sequence_1" +  " -i " + motifs_n + " -o " +  "merci_n.txt")
+        os.system("perl " + merci + " -p " +  "Sequence_1" +  " -i " + motifs_p + " -c BETTS-RUSSELL -o " + "merci_p.txt")
+        os.system("perl " + merci + " -p " + "Sequence_1" +  " -i " + motifs_n + " -c BETTS-RUSSELL -o " + "merci_n.txt")
         MERCI_Processor_p( "merci_p.txt",  'merci_output_p.csv',seqid)
         Merci_after_processing_p( 'merci_output_p.csv',  'merci_hybrid_p.csv')
         MERCI_Processor_n( "/merci_n.txt" , 'merci_output_n.csv',seqid)
