@@ -2,1214 +2,1113 @@ MERCI - Summary of options:
  -p    train_pos.fasta
  -n    train_neg.fasta
  -k 	  1000
- -fp   1
+ -fp   10
  -fn   0
  -o    motifs
  -l    10000
  -s    10000
- -c    NONE
+ -c    BETTS-RUSSELL
  -g    0
  -gl   1
  -para 0
 
 
 Motifs:
- L Q K R G
- S L Q K R G
- A L E G S L Q K R G
- E G S L Q K R G
- G S L Q K R G
- L E G S L Q K R G
- L A L E G S L Q K R G
- P L A L E G S L Q K R G
- Q P L A L E G S L Q K R G
- L Q P L A L E G S L Q K R G
- G A G S L
- S L Q P L A L E G S L Q K R G
- G A G S L Q
- G F K G
- G S L Q P L A L E G S L Q K R G
- W N Q V
- A G S L Q P
- S W N
- S W N Q
- S W N Q V
- V A L Y
- A G S L Q P L
- A G S L Q P L A
- A G S L Q P L A L
- F K G E
- G F K G E
- P R S S
- V P R S
- Y V P R
- A G F K G
- A G F K G E
- A G S L Q P L A L E
- F K G E Q
- G F K G E Q
- K G E Q
- L S W N
- L S W N Q
- L S W N Q V
- L V A L Y
- R V Y V P R
- V Y V P R
- A G F K G E Q
- A R L S
- E Q G P
- L A A R
- R L S W
- V P R S S
- Y V P R S
- A A R L S
- A D G V G
- A D G V G K
- A G S L Q P L A L E G
- D G V G
- D G V G K
- F K G E Q G
- G A D G V G
- G A D G V G K
- G E Q G
- G F K G E Q G
- K G E Q G
- L R V Y V P R
- L V A L Y L
- L Y L A A
- R L S W N
- R L S W N Q
- R L S W N Q V
- R V Y V P R S
- V A L Y L
- V Y V P R S
- Y L A A R
- A G F K G E Q G
- A G S L Q P L A L E G S
- A G S L Q P L A L E G S L
- A G S L Q P L A L E G S L Q
- A L Y L A A
- A R L S W
- E Q G P K
- F K G E Q G P
- G E Q G P
- G F K G E Q G P
- I A G F K G
- I A G F K G E
- I Q N S L S
- I Q N S L S T
- K G E Q G P
- L A A R L
- L V A L Y L A
- Q G P K
- Q N S L S
- Q N S L S T
- V A L Y L A
- Y F N
- Y V P R S S
- A A R L S W
- A E I N
- A G F K G E Q G P
- A G S L Q P L A L E G S L Q K
- A G S L Q P L A L E G S L Q K R
- A R L S W N
- A R L S W N Q
- A R L S W N Q V
- I A G F K G E Q
- L A A R L S
- L L R V Y V P R
- L R V Y V P R S
- L Y L A A R
- R V Y V P R S S
- V Q R L
- V Y V P R S S
- Y L A A R L
- Y P V
- A A R L S W N
- A A R L S W N Q
- A A R L S W N Q V
- A G S L Q P L A L E G S L Q K R G
- A L L R V Y V P R
- A L Y L A A R
- E A L Y
- F K G E Q G P K
- F K N I
- G E Q G P K
- G F K G E Q G P K
- K G E Q G P K
- K I Q N
- L E T I
- L V A L Y L A A
- S Q R S
- V A L Y L A A
- V E A L
- W R D
- Y L A A R L S
- A G F K G E Q G P K
- A L Y L V
- D Y F E
- E A L Y L
- E A L Y L V
- F F K N
- F F K N I
- F L E A
- F S R V
- G G R L E
- G R L E
- G T F L
- G T F L E
- G Y P V
- I A G F K G E Q G
- I V E
- I V T P
- K I Q N S
- K I Q N S L
- L A A R L S W
- L K Q A
- L L R V Y V P R S
- L P Q K
- L P Q K S
- L P Q K S Q
- L R V Y V P R S S
- L Y L A A R L
- P F S R
- P Q K S
- P Q K S Q
- P S Q R
- Q K S Q
- Q R L V
- R D H R
- R P S Q
- R P S Q R
- S L P Q
- T F L E
- V Q R L V
- W Y R
- A L L R V Y V P R S
- A L Y L A A R L
- E E E G G R L E
- E E G G R L E
- E G G R L E
- F F K N I V
- F F K N I V T
- F K N I V
- F K N I V T
- F L E A A
- F L E A A Q
- F L E A A Q S
- G A L L R V Y V P R
- G P E E E G G R L E
- G S L P Q
- G S L P Q K
- G S L P Q K S
- G S L P Q K S Q
- G T F L E A
- G Y P V Q
- G Y P V Q R
- G Y P V Q R L
- H F F K N
- H F F K N I
- H F F K N I V
- H F F K N I V T
- H G T F L
- H G T F L E
- I A G F K G E Q G P
- I Y P P N A N K
- K I Q N S L S
- K I Q N S L S T
- K N I V
- K N I V T
- K Q A T
- K S Q R
- L A A R L S W N
- L A A R L S W N Q
- L A A R L S W N Q V
- L I A Y
- L K Q A T
- L P Q K S Q R
- L V A L Y L A A R
- L Y L A A R L S
- M R N
- N I V T
- P E E E G G R L E
- P F S R V
- P Q K S Q R
- P V Q R
- P V Q R L
- Q K S Q R
- Q R L V A
- R D H R G
- R S P F
- S L P Q K
- S L P Q K S
- S L P Q K S Q
- S P F S
- S P F S R
- T F L E A
- T Y Y
- V A L Y L A A R
- V E A L Y
- V E A L Y L
- V E A L Y L V
- V H F F K N
- V H F F K N I
- V H F F K N I V
- V H F F K N I V T
- V Q R L V A
- V W R D
- W R D H
- W R D H R
- W R G F
- W V R
- Y L A A R L S W
- Y P V Q
- Y P V Q R
- Y P V Q R L
- Y R S P
- Y R S P F
- Y Y F
- A D L I A
- A D L I A Y
- A G D P
- A L Y L A A R L S
- A T Y Y
- C Q I Y P P N A N K
- D H R G T
- D L I A Y
- D V E
- F F K N I V T P
- F K N I V T P
- F L E A A Q S I
- F S R V V
- G A G S L Q P
- G D P A
- G G R L E T
- G R L E T
- G S L P Q K S Q R
- G T F L E A A
- G T F L E A A Q
- G T F L E A A Q S
- G W Y R
- G Y H G T F L
- G Y H G T F L E
- G Y P V Q R L V
- H F F K N I V T P
- H G T F L E A
- H P P H
- H P P H I
- H R G T
- K N I V T P
- K V W R D
- L L R V Y V P R S S
- L Y L V C
- L Y L V C G
- M F S
- M Y S
- N I V T P
- P P H I
- P R S S L
- P V Q R L V
- Q I Y P P N A N K
- Q R L V A L
- Q R L V A L Y
- R D H R G T
- R G T I
- R L V A L
- R L V A L Y
- R S P F S
- R S P F S R
- R S S L P
- R V V H
- S L P Q K S Q R
- S P F S R V
- S R V V
- T F L E A A
- T F L E A A Q
- T F L E A A Q S
- T Y Y F
- V H F F K N I V T P
- V Q R L V A L
- V Q R L V A L Y
- V W R D H
- V W R D H R
- W R D H R G
- W R G F Y
- Y G S L
- Y H G T F L
- Y H G T F L E
- Y L A A R L S W N
- Y L A A R L S W N Q
- Y L A A R L S W N Q V
- Y L K Q
- Y P V Q R L V
- Y R S P F S
- Y R S P F S R
- Y Y F N
- A G D P A
- A L L R V Y V P R S S
- A T Y Y F
- D H R G T I
- D P A L
- D Y Y E
- E E E G G R L E T
- E E G G R L E T
- E G G R L E T
- E L T E
- F A I
- F E A Q
- F H P P
- F H P P H
- F H P P H I
- F M Y
- F M Y S
- F M Y S K
- F Q L
- F S A L
- F S R V V H
- F V V D
- F Y Y
- G A G S L Q P L
- G A G S L Q P L A
- G A G S L Q P L A L
- G A L L R V Y V P R S
- G A T Y Y
- G G R L E T I
- G I A G F K G
- G I A G F K G E
- G I A G F K G E Q
- G P E E E G G R L E T
- G R L E T I
- G T F L E A A Q S I
- G W Y R S
- G Y H G T F L E A
- G Y P V Q R L V A
- H A A H
- H G T F L E A A
- H G T F L E A A Q
- H G T F L E A A Q S
- H L V E
- H R G T I
- I A G D P
- I A G F K G E Q G P K
- I Q N S L S T E
- I Y P P N A N K I
- K K V W R D
- K S Q R S
- K S Q R S Q
- K S Q R S Q D
- K S Q R S Q D E
- K S Q R S Q D E N
- K S Q R S Q D E N P
- K S Q R S Q D E N P V
- K V W R D H
- K V W R D H R
- K Y T
- L E T I L
- L E T I L G
- L M G
- L P Q K S Q R S
- L P Q K S Q R S Q
- L P Q K S Q R S Q D
- L P Q K S Q R S Q D E
- L P Q K S Q R S Q D E N
- L P Q K S Q R S Q D E N P
- L P Q K S Q R S Q D E N P V
- L V A L Y L A A R L
- L W V
- L Y L A A R L S W
- L Y L V C G E
- M Y S K
- M Y W
- N G I K
- N I P K
- N N I
- P E E E G G R L E T
- P F S R V V
- P G T G
- P K R I
- P Q K S Q R S
- P Q K S Q R S Q
- P Q K S Q R S Q D
- P Q K S Q R S Q D E
- P Q K S Q R S Q D E N
- P Q K S Q R S Q D E N P
- P Q K S Q R S Q D E N P V
- P R S S L P
- P V Q R L V A
- P V V H F F K N
- P V V H F F K N I
- P V V H F F K N I V
- P V V H F F K N I V T
- Q F H P
- Q F H P P
- Q F H P P H
- Q F H P P H I
- Q K S Q R S
- Q K S Q R S Q
- Q K S Q R S Q D
- Q K S Q R S Q D E
- Q K S Q R S Q D E N
- Q K S Q R S Q D E N P
- Q K S Q R S Q D E N P V
- Q M A
- Q N S L S T E
- Q R L V A L Y L
- Q R L V A L Y L A
- Q R S Q
- Q R S Q D
- Q R S Q D E
- Q R S Q D E N
- Q R S Q D E N P
- Q R S Q D E N P V
- Q Y L K
- R D H R G T I
- R G F Y I
- R L E T I
- R L V A L Y L
- R L V A L Y L A
- R S P F S R V
- R S Q D E
- R S Q D E N
- R S Q D E N P
- R S Q D E N P V
- R S S L P G
- R V V H L
- S A L S
- S Q A V
- S Q D E
- S Q D E N
- S Q D E N P
- S Q D E N P V
- S Q R S Q
- S Q R S Q D
- S Q R S Q D E
- S Q R S Q D E N
- S Q R S Q D E N P
- S Q R S Q D E N P V
- S R V V H
- S V I Q
- T F L E A A Q S I
- T P N
- T Q F H
- T Q F H P
- T Q F H P P
- T Q F H P P H
- T Q F H P P H I
- T Q Q A
- T S P L
- T W E
- T W E R
- T W E R G
- T Y Y F N
- T Y Y F N K
- V A L Y L A A R L
- V E L G G
- V G W Y
- V G Y H G T F L
- V G Y H G T F L E
- V K Q N
- V K Q N T
- V K Q N T L
- V P M
- V P R S S L
- V Q R L V A L Y L
- V Q R L V A L Y L A
- V V H F F K N
- V V H F F K N I
- V V H F F K N I V
- V V H F F K N I V T
- V V H L
- V W R D H R G
- W E R G
- W R D H R G T
- W R G F Y I
- W Y I
- W Y R S
- Y C Q I Y P P N A N K
- Y F N K
- Y G S L P
- Y G S L P Q
- Y G S L P Q K
- Y G S L P Q K S
- Y G S L P Q K S Q
- Y H G T F L E A
- Y K K V W R D
- Y L K Q A
- Y L K Q A T
- Y P V Q R L V A
- Y R S P F S R V
- Y V K Q N
- Y V K Q N T
- Y V K Q N T L
- Y Y F N K
- A A H A E
- A A H A E I
- A A H A E I N
- A A Q A
- A D L I A Y L
- A D L I A Y L K
- A D L I A Y L K Q
- A D L I A Y L K Q A
- A D L I A Y L K Q A T
- A E I N E
- A G F K G E Q G P K G
- A G L L
- A H A E
- A H A E I
- A H A E I N
- A I D V
- A I D V S
- A L Y L A A R L S W
- A T Y Y F N
- A T Y Y F N K
- A V H A
- A V H A A
- A V H A A H
- A Y L K
- A Y L K Q
- A Y L K Q A
- A Y L K Q A T
- C N T A
- C P L
- C Q I Y P P N A N K I
- C Y K K V W R D
- D L I A Y L
- D L I A Y L K
- D L I A Y L K Q
- D L I A Y L K Q A
- D L I A Y L K Q A T
- D T G H
- D Y F E T
- D Y Y E T
- E E E G G R L E T I
- E E G G R L E T I
- E G G R L E T I
- E I N E
- E L E I
- E L T E G
- E Q C C
- E Q G P K G
- E W F
- F F K N I V T P R
- F K G E Q G P K G
- F K N I V T P R
- F L E A A Q S I V
- F L E A A Q S I V F
- F L E A A Q S I V F G
- F M Y S K L
- F N K N
- F S R V V H L
- F V G Y H G T F L
- F V G Y H G T F L E
- F V V D Y
- F V V D Y Y
- F V V D Y Y E
- F Y I A G D P
- F Y Y L
- G A G S L Q P L A L E
- G A T Y Y F
- G D P A L
- G E Q G P K G
- G E Y
- G F K G E Q G P K G
- G F Y I A G D P
- G G R L E T I L
- G G R L E T I L G
- G I A G F K G E Q G
- G I A G F K G E Q G P
- G I V E
- G I V E Q
- G I V E Q C
- G I V E Q C C
- G N K
- G P E E E G G R L E T I
- G P P G T
- G P P G T G
- G P P G T G K
- G R L E T I L
- G R L E T I L G
- G S L P Q K S Q R S
- G S L P Q K S Q R S Q
- G S L P Q K S Q R S Q D
- G S L P Q K S Q R S Q D E
- G S L P Q K S Q R S Q D E N
- G S L P Q K S Q R S Q D E N P
- G S L P Q K S Q R S Q D E N P V
- G T G K
- G W Y R S P
- G W Y R S P F
- G Y H G T F L E A A
- G Y H G T F L E A A Q
- G Y H G T F L E A A Q S
- G Y P V Q R L V A L
- G Y P V Q R L V A L Y
- H A A H A
- H A A H A E
- H A A H A E I
- H A A H A E I N
- H A E
- H A E I
- H A E I N
- H F F K N I V T P R
- H G T F L E A A Q S I
- I A G D P A
- I A Y L
- I A Y L K
- I A Y L K Q
- I A Y L K Q A
- I A Y L K Q A T
- I D V S
- I Q N S L S T E W
- I Q N S L S T E W S
- I V E Q
- I V E Q C
- I V E Q C C
- I V T P R
- I Y S V
- I Y S V I
- I Y S V I Q
- K G E Q G P K G
- K K V W R D H
- K K V W R D H R
- K N I V T P R
- K R Q
- K S Q R S Q D E N P V V
- K S Q R S Q D E N P V V H
- K S T W E
- K S T W E R
- K S T W E R G
- K V W R D H R G
- K Y N K
- L A Y G
- L E L T E
- L E T I L G W
- L F Q
- L I A Y L
- L I A Y L K
- L I A Y L K Q
- L I A Y L K Q A
- L I A Y L K Q A T
- L K K I
- L N K I Q
- L N K I Q N
- L P Q K S Q R S Q D E N P V V
- L P Q K S Q R S Q D E N P V V H
- L P Y P
- L V A L Y L A A R L S
- L V E A
- L Y L A A R L S W N
- L Y L A A R L S W N Q
- L Y L A A R L S W N Q V
- L Y L V A
- M A S A
- M E N
- M E V G
- M F P
- M F S A
- M K V
- M Y S K L
- N D V
- N I A V
- N I V T P R
- N K I Q
- N K I Q N
- N P V V H F F K N
- N P V V H F F K N I
- N P V V H F F K N I V
- N P V V H F F K N I V T
- N Y C Q I Y P P N A N K
- P E E E G G R L E T I
- P F D L
- P F S R V V H
- P G P A
- P G T G K
- P L P L
- P P G T G
- P P G T G K
- P Q K S Q R S Q D E N P V V
- P Q K S Q R S Q D E N P V V H
- P R S S L P G
- P S L I L
- P V Q R L V A L
- P V Q R L V A L Y
- P V V H F F K N I V T P
- Q A V H
- Q A V H A
- Q A V H A A
- Q A V H A A H
- Q G P K G
- Q I Y P P N A N K I
- Q K S Q R S Q D E N P V V
- Q K S Q R S Q D E N P V V H
- Q K S T
- Q N S L S T E W
- Q N S L S T E W S
- Q P S L
- Q R L V A L Y L A A
- Q R S Q D E N P V V
- Q R S Q D E N P V V H
- Q V E L
- R A L E
- R C N
- R G F Y I A
- R G F Y I A G
- R G F Y I A G D
- R L E T I L
- R L E T I L G
- R L V A L Y L A A
- R M G
- R P P N
- R S Q D E N P V V
- R S Q D E N P V V H
- R V V H L Y
- R V V H L Y R
- R V V H L Y R N
- R V V H L Y R N G
- R V V H L Y R N G K
- R V Y V P R S S L
- R Y L T
- S G S P
- S L P Q K S Q R S
- S L P Q K S Q R S Q
- S L P Q K S Q R S Q D
- S L P Q K S Q R S Q D E
- S L P Q K S Q R S Q D E N
- S L P Q K S Q R S Q D E N P
- S L P Q K S Q R S Q D E N P V
- S M L A
- S P F S R V V
- S Q D E N P V V
- S Q D E N P V V H
- S Q E G
- S Q R S Q D E N P V V
- S Q R S Q D E N P V V H
- S R V V H L
- S T W E
- S T W E R
- S T W E R G
- T L E D
- T Y R
- T Y Y F N K N
- V A L Y L A A R L S
- V D Y Y
- V D Y Y E
- V E L G G G
- V E Q C
- V E Q C C
- V G A T
- V G A T Y
- V G A T Y Y
- V G W Y R
- V G Y H G T F L E A
- V H A A
- V H A A H
- V H F F K N I V T P R
- V H L Y
- V H L Y R
- V H L Y R N
- V H L Y R N G
- V H L Y R N G K
- V K E F
- V K E F L
- V K Q N T L K
- V N F
- V P R S S L P
- V Q R L V A L Y L A A
- V T C
- V T P R
- V V D Y Y
- V V D Y Y E
- V V H F F K N I V T P
- V V H L Y
- V V H L Y R
- V V H L Y R N
- V V H L Y R N G
- V V H L Y R N G K
- V W R D H R G T
- V Y V P R S S L
- W R D H R G T I
- W R G F Y I A
- W R G F Y I A G
- W R G F Y I A G D
- W Y R S P
- W Y R S P F
- Y F E T
- Y F M Y
- Y F M Y S
- Y F M Y S K
- Y F N K N
- Y G S L P Q K S Q R
- Y H G T F L E A A
- Y H G T F L E A A Q
- Y H G T F L E A A Q S
- Y I A G D P
- Y I Y
- Y K K V W R D H
- Y K K V W R D H R
- Y L N K
- Y L N K I
- Y L N K I Q
- Y L N K I Q N
- Y P N V
- Y P V Q R L V A L
- Y P V Q R L V A L Y
- Y S V I Q
- Y V K Q N T L K
- Y V P R S S L
- Y Y E T
- Y Y F N K N
- A A H A E I N E
- A D Y F
- A D Y F E
- A D Y F E T
- A E I N K
- A E K I
- A E L K
- A E L K I
- A F G L
- A F N Q
- A F N Q F
- A G D P A L
- A G F K G E Q G P K G E
- A H A E I N E
- A K Y L
- A L A N I
- A L A N I A
- A L A N I A V
- A L A Y G
- A L H
- A L S Y
- A L Y L A A R L S W N
- A L Y L A A R L S W N Q
- A L Y L A A R L S W N Q V
- A L Y L V A
- A L Y L V C
- A L Y L V C G
- A L Y L V C G E
- A N I A
- A N I A V
- A S Q K
- A S Q K R
- A S Q K R P
- A S Q K R P S
- A S Q K R P S Q
- A S Q K R P S Q R
- A T G M
- A T Y Y F N K N
- A V H A A H A
- A V H A A H A E
- A V H A A H A E I
- A V H A A H A E I N
- C A K F
- C Y K K V W R D H
- C Y K K V W R D H R
- D L P V
- D L P V W
- D L P V W L
- D P A L A
- D Q H
- D Y F E T S
- D Y I
- D Y Y E T S
- E A L Y L V A
- E A L Y L V C
- E A L Y L V C G
- E A L Y L V C G E
- E A W
- E E E G G R L E T I L
- E E E G G R L E T I L G
- E E G G R L E T I L
- E E G G R L E T I L G
- E G G R L E T I L
- E G G R L E T I L G
- E G P
- E L K I
- E N P V V H F F K N
- E N P V V H F F K N I
- E N P V V H F F K N I V
- E N P V V H F F K N I V T
- E Q G P K G E
- E S S V
- E T P I
- E V G A
- E V G W
- E V G W Y
- E W V
- E Y W
- F E T S
- F E V G
- F F W
- F K G E Q G P K G E
- F M Y S K L R
- F M Y S K L R V
- F N Q F
- F P F D
- F P F D L
- F S A L S
- F S R V V H L Y
- F S R V V H L Y R
- F S R V V H L Y R N
- F S R V V H L Y R N G
- F S R V V H L Y R N G K
- F V G Y H G T F L E A
- F V L L
- F V V D Y Y E T
- F Y I A G D P A
- G A L L R V Y V P R S S
- G A T Y Y F N
- G A T Y Y F N K
- G D L P
- G D L P V
- G D L P V W
- G D L P V W L
- G D P A L A
- G E Q G P K G E
- G F K G E Q G P K G E
- G F Y I A G D P A
- G G L V
- G G R L E T I L G W
- G I A G F K G E Q G P K
- G L V L
- G N W
- G P A G
- G P E E E G G R L E T I L
- G P E E E G G R L E T I L G
- G P G R
- G P G R A
- G P G R A F
- G P K G E
- G Q V E
- G R A F
- G R L E T I L G W
- G S L P Q K S Q R S Q D E N P V V
- G S L P Q K S Q R S Q D E N P V V H
- G S Q E
- G T F L E A A Q S I V
- G T F L E A A Q S I V F
- G T F L E A A Q S I V F G
- G T L T
- G W Y R S P F S
- G W Y R S P F S R
- G Y H G T F L E A A Q S I
- G Y P V Q R L V A L Y L
- G Y P V Q R L V A L Y L A
- H A A H A E I N E
- H A E I N E
- H A K R
- H G L D
- H P P H I E
- H V D Q
- I D A Y
- I G P G
- I K R V
- I L I F
- I P K R
- I P K R I
- I S Q A
- I Y P P N A N K I R
- I Y P P N A N K I R E
- K G E Q G P K G E
- K I Y S
- K K V W R D H R G
- K L A A
- K L R V
- K R P S
- K R P S Q
- K R P S Q R
- K S A H
- K V T V
- K V T V A
- K V T V A F
- K V T V A F N
- K V T V A F N Q
- K V T V A F N Q F
- K V W R D H R G T
- K Y N K A
- L A G G
- L A G L
- L A N I
- L A N I A
- L A N I A V
- L A S R
- L E L T E G
- L E T I L G W P
- L G S Q
- L G S Q E
- L K I Y
- L K S G
- L N K I Q N S
- L N K I Q N S L
- L P L A
- L P V W
- L P V W L
- L Q A H R
- L Q A H R Q
- L Q A H R Q L
- L Q L E L T E
- L R V Y V P R S S L
- L V L M
- L Y L V A G
- L Y L V C G E R
- L Y L V C G E R G
- M A P
- M E V G W
- M E V G W Y
- M F S A L
- M M A
- M P N
- M Y S K L R
- M Y S K L R V
- N E A
- N F F R
- N F F R M
- N F F R M V
- N I P K R
- N I P K R I
- N K A N
- N K I Q N S
- N K I Q N S L
- N P V V H F F K N I V T P
- N T A T
- N V H
- P E E E G G R L E T I L
- P E E E G G R L E T I L G
- P F S R V V H L
- P G R A
- P G R A F
- P H I E
- P K G E
- P L T S
- P P H I E
- P R W Y F Y
- P V Q R L V A L Y L
- P V Q R L V A L Y L A
- Q A E I
- Q A E I N
- Q A E I N K
- Q A V H A A H A
- Q A V H A A H A E
- Q A V H A A H A E I
- Q A V H A A H A E I N
- Q G P K G E
- Q K R P
- Q K R P S
- Q K R P S Q
- Q K R P S Q R
- Q L E L T E
- Q L S P
- Q R L V A L Y L A A R
- Q V E L G
- Q V E L G G
- R G D L P
- R G D L P V
- R G D L P V W
- R G D L P V W L
- R G F Y I A G D P
- R K M
- R L E T I L G W
- R L V A L Y L A A R
- R N V P
- R Q T V
- R S P F S R V V
- R T L E D
- R V Y V P R S S L P
- R W Y F Y
- S A E K
- S A E K I
- S K L R V
- S L G N
- S L I A
- S L L T
- S L P Q K S Q R S Q D E N P V V
- S L P Q K S Q R S Q D E N P V V H
- S N Y C Q I Y P P N A N K
- S P F S R V V H
- S Q A V H
- S Q A V H A
- S Q A V H A A
- S Q A V H A A H
- S Q E G A
- S Q K R
- S Q K R P
- S Q K R P S
- S Q K R P S Q
- S Q K R P S Q R
- S Q P S
- S R V V H L Y
- S R V V H L Y R
- S R V V H L Y R N
- S R V V H L Y R N G
- S R V V H L Y R N G K
- T C A K
- T F L E A A Q S I V
- T F L E A A Q S I V F
- T F L E A A Q S I V F G
- T G K S
- T M A S
- T Q K
- T T Q Q
- T T Q Q A
- T V A F
- T V A F N
- T V A F N Q
- T V A F N Q F
- V A A A
- V A F N
- V A F N Q
- V A F N Q F
- V D Y Y E T
- V E A L Y L V A
- V E H
- V E T P
- V G A T Y Y F
- V G R I
- V G W Y R S
- V G Y H G T F L E A A
- V G Y H G T F L E A A Q
- V G Y H G T F L E A A Q S
- V H A A H A
- V H A A H A E
- V H A A H A E I
- V H A A H A E I N
- V K Q N T L K L
- V P R S S L P G
- V Q R L V A L Y L A A R
- V Q Y
- V S A L
- V S A S
- V T V A F
- V T V A F N
- V T V A F N Q
- V T V A F N Q F
- V V D Y Y E T
- V V G A
- V V V G
- V W R D H R G T I
- V Y N F
- V Y V P R S S L P
- W R G F Y I A G D P
- W Y R S P F S
- W Y R S P F S R
- Y C Q I Y P P N A N K I
- Y E T S
- Y E V
- Y F E T S
- Y F M Y S K L
- Y F Y Y
- Y F Y Y L
- Y H G T F L E A A Q S I
- Y I A G D P A
- Y K K V W R D H R G
- Y L K T
- Y L N K I Q N S
- Y L N K I Q N S L
- Y L V A G
- Y N K A N
- Y P V Q R L V A L Y L
- Y P V Q R L V A L Y L A
- Y R S P F S R V V
- Y S K L R
- Y S K L R V
- Y V K Q N T L K L
- Y V P R S S L P
- Y Y E T S
+ aliphatic A hydrophobic polar hydrophobic small hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic A hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic tiny L polar hydrophobic small hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic tiny L polar hydrophobic tiny hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic A L polar hydrophobic tiny hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic A L polar hydrophobic small hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic A aliphatic polar hydrophobic tiny hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic A aliphatic polar hydrophobic small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small polar aliphatic polar polar polar hydrophobic
+ hydrophobic small aliphatic polar small polar aliphatic polar polar polar hydrophobic
+ aliphatic polar hydrophobic small hydrophobic polar polar R tiny
+ hydrophobic E small tiny hydrophobic polar polar polar hydrophobic
+ hydrophobic charged tiny polar aliphatic polar hydrophobic polar tiny
+ hydrophobic Q K R hydrophobic
+ hydrophobic polar tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic E hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S aliphatic polar polar polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small tiny aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small small aliphatic polar polar charged hydrophobic
+ small hydrophobic polar tiny polar aliphatic polar hydrophobic polar small
+ E hydrophobic polar L polar hydrophobic polar hydrophobic
+ negative G polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic negative G polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic charged hydrophobic small L polar hydrophobic charged hydrophobic
+ hydrophobic charged G polar aliphatic polar hydrophobic polar tiny
+ hydrophobic polar hydrophobic small L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic charged hydrophobic polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic aliphatic polar small polar L polar polar polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small polar L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small polar aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S aliphatic polar polar polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small tiny aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small tiny hydrophobic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small tiny hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small small aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small polar L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic tiny hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic small hydrophobic polar small polar L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic polar small tiny hydrophobic polar polar charged hydrophobic
+ A hydrophobic polar tiny polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic polar small polar hydrophobic polar hydrophobic polar tiny
+ small hydrophobic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ small hydrophobic Q K R hydrophobic
+ negative tiny small L polar hydrophobic polar small
+ charged G small aliphatic polar hydrophobic polar small
+ polar hydrophobic polar hydrophobic Q positive polar small
+ polar hydrophobic polar hydrophobic Q charged polar small
+ aliphatic charged hydrophobic small hydrophobic polar polar R small
+ aliphatic polar hydrophobic tiny hydrophobic polar charged polar tiny
+ aliphatic polar hydrophobic small hydrophobic polar charged R small
+ aliphatic polar hydrophobic small hydrophobic polar charged R tiny
+ aliphatic polar hydrophobic small hydrophobic polar polar R G
+ aliphatic polar hydrophobic small hydrophobic polar polar positive G
+ aliphatic polar hydrophobic small hydrophobic polar polar charged G
+ aliphatic hydrophobic hydrophobic polar tiny tiny hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic negative tiny polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E hydrophobic polar aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic E hydrophobic small hydrophobic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic charged tiny polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic charged tiny small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic polar hydrophobic tiny aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic polar hydrophobic tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic polar tiny small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic polar small polar aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic aliphatic charged small polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged small small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small polar L polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small polar L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S hydrophobic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small tiny L polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small small L polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small small L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small polar L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small polar aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic tiny hydrophobic polar polar charged tiny
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar tiny S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small polar L polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small tiny L polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small small L polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small small L polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic polar small polar L polar polar polar hydrophobic
+ A hydrophobic polar hydrophobic small hydrophobic polar hydrophobic polar tiny
+ tiny hydrophobic charged G polar hydrophobic polar hydrophobic polar small
+ tiny hydrophobic polar tiny polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic polar small small aliphatic polar hydrophobic polar hydrophobic
+ small aliphatic polar hydrophobic R G
+ small hydrophobic charged tiny polar aliphatic polar hydrophobic polar small
+ negative G polar aliphatic polar hydrophobic polar tiny
+ negative tiny polar L polar hydrophobic polar small
+ polar hydrophobic polar aliphatic Q positive polar small
+ polar hydrophobic polar aliphatic Q charged polar small
+ L polar hydrophobic polar aliphatic polar hydrophobic polar tiny
+ aliphatic charged hydrophobic small hydrophobic polar hydrophobic R small
+ aliphatic polar hydrophobic polar hydrophobic polar polar R G
+ aliphatic polar hydrophobic polar hydrophobic polar polar positive G
+ aliphatic polar hydrophobic S hydrophobic polar polar polar tiny
+ aliphatic polar hydrophobic S hydrophobic polar hydrophobic polar tiny
+ aliphatic polar hydrophobic tiny hydrophobic polar charged charged small
+ aliphatic polar hydrophobic tiny hydrophobic polar charged charged tiny
+ aliphatic polar hydrophobic tiny hydrophobic polar polar R hydrophobic
+ aliphatic polar hydrophobic tiny hydrophobic polar polar R tiny
+ aliphatic polar hydrophobic tiny hydrophobic polar polar positive tiny
+ aliphatic polar tiny small hydrophobic Q hydrophobic polar hydrophobic
+ aliphatic hydrophobic hydrophobic polar tiny small hydrophobic polar hydrophobic charged hydrophobic
+ aliphatic tiny hydrophobic polar hydrophobic small hydrophobic polar hydrophobic polar tiny
+ aliphatic small hydrophobic polar hydrophobic small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic negative G polar aliphatic polar hydrophobic polar tiny
+ hydrophobic polar hydrophobic S hydrophobic polar charged charged hydrophobic
+ hydrophobic polar hydrophobic S hydrophobic polar charged charged small
+ hydrophobic polar hydrophobic S hydrophobic polar charged charged tiny
+ hydrophobic polar tiny small aliphatic Q hydrophobic charged hydrophobic
+ hydrophobic polar tiny small aliphatic Q hydrophobic polar hydrophobic
+ hydrophobic polar tiny small hydrophobic Q hydrophobic charged hydrophobic
+ hydrophobic L polar small S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic E small small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic polar hydrophobic S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic polar tiny S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic E hydrophobic small aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic E hydrophobic small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic E small polar aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic negative hydrophobic polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic negative G polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic negative tiny polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic charged G polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic charged tiny polar hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic polar hydrophobic small aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar tiny polar aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic polar tiny S hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic polar tiny tiny hydrophobic polar polar charged tiny
+ hydrophobic hydrophobic polar tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S L polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S L polar polar polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar small tiny L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic hydrophobic polar tiny polar aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar tiny small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S L polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S L polar polar polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small tiny L polar hydrophobic charged hydrophobic
+ hydrophobic A hydrophobic polar hydrophobic small hydrophobic polar hydrophobic polar tiny
+ hydrophobic S hydrophobic polar charged charged G
+ hydrophobic tiny L polar charged polar tiny
+ hydrophobic tiny hydrophobic charged hydrophobic tiny hydrophobic polar hydrophobic polar small
+ hydrophobic small aliphatic charged small polar aliphatic polar polar polar hydrophobic
+ hydrophobic small aliphatic polar small polar L polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic polar small polar aliphatic polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small small L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic charged hydrophobic small L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic charged small polar L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic polar hydrophobic polar L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic polar hydrophobic tiny hydrophobic polar polar charged tiny
+ hydrophobic small hydrophobic polar tiny small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic polar small tiny hydrophobic polar polar charged tiny
+ hydrophobic small hydrophobic polar small small L polar hydrophobic polar hydrophobic
+ A hydrophobic charged tiny polar hydrophobic polar hydrophobic polar small
+ A hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic polar tiny
+ A hydrophobic polar hydrophobic small hydrophobic polar polar charged small
+ A hydrophobic polar tiny polar aliphatic polar hydrophobic polar small
+ A hydrophobic polar small polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic E hydrophobic polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ tiny hydrophobic negative hydrophobic polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic charged tiny polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic polar hydrophobic polar aliphatic polar hydrophobic polar tiny
+ tiny tiny hydrophobic polar polar positive tiny
+ small L polar hydrophobic R G
+ small hydrophobic charged hydrophobic small L polar hydrophobic charged hydrophobic
+ small hydrophobic polar hydrophobic small L polar hydrophobic charged hydrophobic
+ small hydrophobic polar G polar aliphatic polar hydrophobic polar small
+ small hydrophobic polar small small L polar hydrophobic charged hydrophobic
+ small small hydrophobic polar positive R tiny
+ E hydrophobic polar L polar hydrophobic charged hydrophobic
+ E hydrophobic tiny hydrophobic polar positive polar small
+ E G polar aliphatic polar hydrophobic polar small
+ E small polar L polar polar polar hydrophobic
+ negative G small aliphatic polar hydrophobic polar small
+ charged hydrophobic polar hydrophobic Q positive polar hydrophobic
+ charged hydrophobic polar hydrophobic Q charged polar hydrophobic
+ charged hydrophobic polar hydrophobic Q K polar hydrophobic
+ charged G tiny aliphatic polar hydrophobic polar small
+ charged tiny S aliphatic polar hydrophobic polar small
+ polar hydrophobic polar hydrophobic Q K polar hydrophobic
+ polar hydrophobic S hydrophobic polar charged charged G
+ polar hydrophobic S hydrophobic polar charged polar G
+ polar hydrophobic small L polar hydrophobic positive tiny
+ polar hydrophobic small L polar hydrophobic charged tiny
+ aliphatic E hydrophobic polar L polar hydrophobic polar hydrophobic
+ aliphatic E hydrophobic polar hydrophobic polar hydrophobic charged hydrophobic
+ aliphatic E hydrophobic small hydrophobic polar polar polar small
+ aliphatic negative hydrophobic polar L polar hydrophobic polar hydrophobic
+ aliphatic negative hydrophobic polar L polar hydrophobic polar small
+ aliphatic charged hydrophobic polar L polar hydrophobic polar small
+ aliphatic charged G polar hydrophobic polar hydrophobic polar tiny
+ aliphatic Q K positive small
+ aliphatic polar hydrophobic polar aliphatic polar positive polar hydrophobic
+ aliphatic polar hydrophobic polar hydrophobic polar charged R G
+ aliphatic polar hydrophobic polar hydrophobic polar charged positive G
+ aliphatic polar hydrophobic S hydrophobic polar charged polar tiny
+ aliphatic polar hydrophobic S hydrophobic polar polar R hydrophobic
+ aliphatic polar hydrophobic S hydrophobic polar polar R small
+ aliphatic polar hydrophobic S hydrophobic polar polar R tiny
+ aliphatic polar hydrophobic S hydrophobic polar polar positive hydrophobic
+ aliphatic polar hydrophobic S hydrophobic polar polar positive small
+ aliphatic polar hydrophobic S hydrophobic polar polar positive tiny
+ aliphatic polar hydrophobic S hydrophobic polar polar charged tiny
+ aliphatic polar hydrophobic tiny aliphatic polar hydrophobic charged hydrophobic
+ aliphatic polar hydrophobic tiny hydrophobic polar charged R hydrophobic
+ aliphatic polar hydrophobic tiny hydrophobic polar charged R small
+ aliphatic polar hydrophobic tiny hydrophobic polar charged R tiny
+ aliphatic polar hydrophobic tiny hydrophobic polar charged positive hydrophobic
+ aliphatic polar hydrophobic tiny hydrophobic polar charged positive small
+ aliphatic polar hydrophobic tiny hydrophobic polar charged positive tiny
+ aliphatic polar hydrophobic tiny hydrophobic polar polar R G
+ aliphatic polar hydrophobic tiny hydrophobic polar polar positive G
+ aliphatic polar hydrophobic tiny hydrophobic polar polar charged G
+ aliphatic polar hydrophobic small hydrophobic polar positive polar tiny
+ aliphatic polar hydrophobic small hydrophobic polar charged R G
+ aliphatic polar hydrophobic small hydrophobic polar charged positive G
+ aliphatic polar hydrophobic small hydrophobic polar charged charged G
+ aliphatic polar hydrophobic small hydrophobic polar charged polar G
+ aliphatic polar G polar aliphatic polar hydrophobic polar hydrophobic
+ aliphatic polar G polar hydrophobic polar hydrophobic polar tiny
+ aliphatic polar tiny small aliphatic Q hydrophobic charged hydrophobic
+ aliphatic polar tiny small aliphatic Q hydrophobic polar hydrophobic
+ aliphatic polar tiny small hydrophobic Q hydrophobic charged hydrophobic
+ aliphatic polar tiny small hydrophobic polar polar R small
+ aliphatic hydrophobic aliphatic polar small tiny hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic small hydrophobic polar hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic E hydrophobic polar L polar hydrophobic polar hydrophobic
+ hydrophobic E hydrophobic tiny hydrophobic polar positive polar small
+ hydrophobic negative hydrophobic tiny hydrophobic polar positive polar small
+ hydrophobic negative small small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic charged hydrophobic tiny hydrophobic polar positive polar small
+ hydrophobic charged hydrophobic small L polar hydrophobic positive hydrophobic
+ hydrophobic charged tiny S hydrophobic polar hydrophobic polar small
+ hydrophobic charged tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic Q K positive small
+ hydrophobic polar hydrophobic Q K polar hydrophobic
+ hydrophobic polar hydrophobic S hydrophobic polar charged charged G
+ hydrophobic polar hydrophobic S hydrophobic polar charged polar G
+ hydrophobic polar hydrophobic tiny aliphatic polar polar charged tiny
+ hydrophobic polar hydrophobic small L polar hydrophobic positive hydrophobic
+ hydrophobic polar G small hydrophobic polar hydrophobic charged tiny
+ hydrophobic polar tiny small hydrophobic polar polar charged G
+ hydrophobic L polar small polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic charged hydrophobic polar aliphatic polar hydrophobic polar small
+ hydrophobic aliphatic charged tiny polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic polar hydrophobic S hydrophobic polar hydrophobic polar small
+ hydrophobic aliphatic polar hydrophobic small hydrophobic polar polar positive tiny
+ hydrophobic aliphatic polar hydrophobic small hydrophobic polar polar charged tiny
+ hydrophobic aliphatic polar tiny polar aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic aliphatic polar small small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic aliphatic polar small small hydrophobic polar polar charged tiny
+ hydrophobic hydrophobic E tiny polar aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic E tiny polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E small polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E small small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic E small small aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic negative G polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic charged hydrophobic small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic polar hydrophobic polar aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar hydrophobic tiny aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar hydrophobic tiny hydrophobic polar charged charged small
+ hydrophobic hydrophobic polar tiny tiny hydrophobic polar hydrophobic charged tiny
+ hydrophobic hydrophobic polar tiny small hydrophobic polar polar charged G
+ hydrophobic hydrophobic L charged hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic L polar small polar hydrophobic polar polar polar hydrophobic
+ hydrophobic hydrophobic aliphatic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic E small small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged hydrophobic polar hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small polar aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small tiny hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar hydrophobic S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar tiny polar aliphatic polar polar polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small S L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic charged hydrophobic small hydrophobic polar polar positive small
+ hydrophobic hydrophobic hydrophobic charged hydrophobic small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged G small hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic hydrophobic charged tiny polar hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged tiny small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged small polar hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged small S aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small tiny aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small small aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic polar hydrophobic S aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic S aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic polar hydrophobic tiny aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small hydrophobic polar polar positive tiny
+ hydrophobic hydrophobic hydrophobic polar G small hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic hydrophobic polar tiny tiny hydrophobic polar polar charged tiny
+ hydrophobic hydrophobic hydrophobic polar tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small small hydrophobic polar polar positive tiny
+ hydrophobic A hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic polar small
+ hydrophobic A hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic S hydrophobic polar charged R small
+ hydrophobic S hydrophobic polar charged R tiny
+ hydrophobic tiny L polar positive polar small
+ hydrophobic tiny L polar positive polar tiny
+ hydrophobic tiny aliphatic Q polar charged small
+ hydrophobic tiny aliphatic polar K charged hydrophobic
+ hydrophobic tiny aliphatic polar hydrophobic positive G
+ hydrophobic tiny hydrophobic E hydrophobic small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic tiny hydrophobic charged hydrophobic tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic tiny hydrophobic Q polar charged small
+ hydrophobic tiny hydrophobic polar hydrophobic tiny hydrophobic polar polar charged small
+ hydrophobic tiny hydrophobic polar hydrophobic small hydrophobic polar polar charged tiny
+ hydrophobic tiny hydrophobic polar hydrophobic small hydrophobic polar hydrophobic charged tiny
+ hydrophobic tiny hydrophobic polar tiny small hydrophobic polar hydrophobic charged tiny
+ hydrophobic tiny hydrophobic polar small small hydrophobic polar hydrophobic charged tiny
+ hydrophobic small L polar hydrophobic R tiny
+ hydrophobic small L polar hydrophobic tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic small aliphatic charged small small L polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic charged small small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic polar hydrophobic tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic small aliphatic polar small tiny L polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small tiny L polar polar polar hydrophobic
+ hydrophobic small aliphatic polar small tiny L polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic polar small tiny aliphatic polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small tiny aliphatic polar polar polar hydrophobic
+ hydrophobic small aliphatic polar small tiny aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic polar small tiny hydrophobic polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small small L polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small small L polar polar polar hydrophobic
+ hydrophobic small aliphatic polar small small L polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic polar small small aliphatic polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small small aliphatic polar polar polar hydrophobic
+ hydrophobic small hydrophobic charged hydrophobic polar L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic charged hydrophobic small L polar hydrophobic polar small
+ hydrophobic small hydrophobic charged small small L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic polar G
+ hydrophobic small hydrophobic polar tiny tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic small hydrophobic polar small polar L polar hydrophobic charged hydrophobic
+ hydrophobic small hydrophobic polar small S hydrophobic polar polar charged hydrophobic
+ hydrophobic small hydrophobic polar small tiny L polar polar charged hydrophobic
+ hydrophobic small hydrophobic polar small tiny L polar polar polar hydrophobic
+ hydrophobic small hydrophobic polar small tiny L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic polar small tiny aliphatic polar polar charged hydrophobic
+ hydrophobic small hydrophobic polar small small L polar polar charged hydrophobic
+ hydrophobic small hydrophobic polar small small L polar polar polar hydrophobic
+ hydrophobic small hydrophobic polar small small L polar hydrophobic charged hydrophobic
+ hydrophobic small hydrophobic polar small small hydrophobic polar polar R tiny
+ A hydrophobic E hydrophobic polar aliphatic polar hydrophobic polar small
+ A hydrophobic negative hydrophobic polar aliphatic polar hydrophobic polar small
+ A hydrophobic charged hydrophobic polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic charged G polar hydrophobic polar hydrophobic polar small
+ A hydrophobic charged tiny polar aliphatic polar hydrophobic polar small
+ A hydrophobic charged tiny polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic charged small polar aliphatic polar hydrophobic polar small
+ A hydrophobic charged small polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic polar hydrophobic polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic polar hydrophobic tiny hydrophobic polar polar charged small
+ A hydrophobic polar hydrophobic tiny hydrophobic polar polar charged tiny
+ A hydrophobic polar hydrophobic small hydrophobic polar polar charged tiny
+ A hydrophobic polar tiny polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic polar small polar aliphatic polar hydrophobic polar tiny
+ S hydrophobic polar charged R G
+ tiny aliphatic polar K positive hydrophobic
+ tiny hydrophobic E G polar hydrophobic polar hydrophobic polar small
+ tiny hydrophobic E tiny polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic E small polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic negative G polar hydrophobic polar hydrophobic polar small
+ tiny hydrophobic negative tiny polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic negative small polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic charged hydrophobic polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic charged hydrophobic tiny L polar hydrophobic polar hydrophobic
+ tiny hydrophobic charged G polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic charged G polar hydrophobic polar hydrophobic polar tiny
+ tiny hydrophobic Q K R hydrophobic
+ tiny hydrophobic polar hydrophobic tiny L polar hydrophobic polar hydrophobic
+ tiny hydrophobic polar hydrophobic small hydrophobic polar positive polar hydrophobic
+ tiny hydrophobic polar G polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic polar tiny polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic polar tiny small aliphatic polar hydrophobic polar hydrophobic
+ tiny hydrophobic polar small polar aliphatic polar hydrophobic charged hydrophobic
+ tiny hydrophobic polar small polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic polar small small aliphatic polar hydrophobic charged hydrophobic
+ tiny tiny aliphatic polar charged positive small
+ small L Q hydrophobic polar tiny
+ small L polar hydrophobic tiny hydrophobic polar hydrophobic polar tiny
+ small aliphatic polar small tiny L polar polar charged hydrophobic
+ small aliphatic polar small tiny L polar polar polar hydrophobic
+ small aliphatic polar small tiny L polar hydrophobic polar hydrophobic
+ small aliphatic polar small tiny aliphatic polar hydrophobic polar hydrophobic
+ small aliphatic polar small small L polar polar charged hydrophobic
+ small aliphatic polar small small L polar hydrophobic charged hydrophobic
+ small hydrophobic E G polar hydrophobic polar hydrophobic polar small
+ small hydrophobic E tiny polar aliphatic polar hydrophobic polar small
+ small hydrophobic negative G polar hydrophobic polar hydrophobic polar tiny
+ small hydrophobic negative tiny polar aliphatic polar hydrophobic polar small
+ small hydrophobic charged hydrophobic tiny L polar hydrophobic polar hydrophobic
+ small hydrophobic charged G polar aliphatic polar hydrophobic polar small
+ small hydrophobic charged tiny small L polar hydrophobic polar hydrophobic
+ small hydrophobic charged small small L polar hydrophobic charged hydrophobic
+ small hydrophobic polar hydrophobic tiny L polar hydrophobic polar hydrophobic
+ small hydrophobic polar hydrophobic tiny aliphatic polar polar polar tiny
+ small hydrophobic polar tiny polar aliphatic polar hydrophobic charged hydrophobic
+ small hydrophobic polar tiny polar aliphatic polar hydrophobic polar tiny
+ small hydrophobic polar tiny small L polar hydrophobic polar hydrophobic
+ small hydrophobic polar small tiny L polar polar charged hydrophobic
+ small hydrophobic polar small tiny L polar polar polar hydrophobic
+ small hydrophobic polar small tiny L polar hydrophobic charged hydrophobic
+ small hydrophobic polar small small L polar polar charged hydrophobic
+ small tiny L polar charged polar small
+ small tiny L polar polar charged G
+ small tiny hydrophobic polar positive R tiny
+ small small L polar polar charged G
+ E hydrophobic small hydrophobic polar positive polar tiny
+ E G polar hydrophobic polar hydrophobic polar tiny
+ E tiny polar L polar hydrophobic polar hydrophobic
+ E tiny polar L polar hydrophobic polar small
+ E tiny small L polar hydrophobic polar small
+ E tiny small hydrophobic Q hydrophobic polar hydrophobic
+ E small polar L polar polar polar small
+ E small polar L polar hydrophobic polar hydrophobic
+ E small tiny hydrophobic polar positive polar small
+ E small small hydrophobic Q hydrophobic polar hydrophobic
+ E small small hydrophobic polar positive polar tiny
+ negative hydrophobic small hydrophobic polar positive polar tiny
+ negative G small L polar hydrophobic polar small
+ negative tiny polar hydrophobic Q hydrophobic polar hydrophobic
+ negative tiny tiny aliphatic polar hydrophobic polar small
+ negative tiny tiny hydrophobic polar polar positive small
+ negative tiny small hydrophobic Q hydrophobic polar hydrophobic
+ negative small small hydrophobic polar positive polar tiny
+ charged hydrophobic polar aliphatic Q positive polar hydrophobic
+ charged hydrophobic polar aliphatic Q positive polar small
+ charged hydrophobic polar aliphatic Q charged polar hydrophobic
+ charged hydrophobic polar aliphatic Q charged polar small
+ charged hydrophobic polar aliphatic Q K polar hydrophobic
+ charged hydrophobic polar aliphatic Q K polar small
+ charged hydrophobic polar hydrophobic Q positive polar small
+ charged hydrophobic polar hydrophobic Q charged polar small
+ charged hydrophobic polar hydrophobic Q K polar small
+ charged hydrophobic small L polar hydrophobic positive tiny
+ charged hydrophobic small L polar hydrophobic charged tiny
+ charged hydrophobic small aliphatic polar polar R small
+ charged hydrophobic small hydrophobic polar K polar tiny
+ charged G S aliphatic polar hydrophobic polar small
+ charged G small L polar hydrophobic polar small
+ charged G small aliphatic polar hydrophobic polar tiny
+ charged G small hydrophobic polar hydrophobic charged small
+ charged G small hydrophobic polar hydrophobic charged tiny
+ charged tiny small aliphatic polar hydrophobic R small
+ charged tiny small hydrophobic polar hydrophobic R small
+ charged small small hydrophobic polar K polar tiny
+ polar hydrophobic polar aliphatic Q K polar hydrophobic
+ polar hydrophobic polar aliphatic Q K polar small
+ polar hydrophobic polar hydrophobic Q K polar small
+ polar hydrophobic S hydrophobic polar charged R small
+ polar hydrophobic S hydrophobic polar charged R tiny
+ polar hydrophobic S hydrophobic polar charged positive tiny
+ polar G small hydrophobic polar hydrophobic positive tiny
+ polar tiny tiny aliphatic polar polar charged tiny
+ polar tiny tiny hydrophobic polar polar charged G
+ L charged hydrophobic small L polar hydrophobic charged hydrophobic
+ L charged hydrophobic small aliphatic polar hydrophobic charged hydrophobic
+ L Q positive R small
+ L Q positive R tiny
+ L Q positive positive small
+ L Q positive positive tiny
+ L Q positive charged small
+ L Q positive charged tiny
+ L Q charged R small
+ L Q charged R tiny
+ L Q charged positive small
+ L Q charged positive tiny
+ L Q charged charged small
+ L Q charged charged tiny
+ L Q K R small
+ L Q K R tiny
+ L Q K positive hydrophobic
+ L Q K positive small
+ L Q K positive tiny
+ L Q K charged hydrophobic
+ L Q K charged small
+ L Q K charged tiny
+ L Q K polar hydrophobic
+ L Q K polar small
+ L Q K polar tiny
+ L polar hydrophobic S hydrophobic polar hydrophobic polar hydrophobic
+ L polar hydrophobic S hydrophobic polar hydrophobic polar small
+ L polar hydrophobic S hydrophobic polar hydrophobic polar tiny
+ L polar hydrophobic small L polar hydrophobic charged hydrophobic
+ L polar hydrophobic small aliphatic polar hydrophobic charged hydrophobic
+ L polar tiny S hydrophobic polar hydrophobic polar hydrophobic
+ L polar small polar L polar hydrophobic polar small
+ L hydrophobic hydrophobic polar hydrophobic small hydrophobic polar polar R hydrophobic
+ L hydrophobic hydrophobic polar hydrophobic small hydrophobic polar polar positive hydrophobic
+ aliphatic E hydrophobic polar L polar hydrophobic polar small
+ aliphatic E hydrophobic polar aliphatic polar hydrophobic polar small
+ aliphatic E hydrophobic small aliphatic polar polar charged hydrophobic
+ aliphatic E hydrophobic small hydrophobic polar hydrophobic positive small
+ aliphatic E hydrophobic small hydrophobic polar hydrophobic charged small
+ aliphatic negative G polar hydrophobic polar hydrophobic polar tiny
+ aliphatic charged hydrophobic polar hydrophobic Q hydrophobic polar hydrophobic
+ aliphatic charged hydrophobic small L polar hydrophobic charged hydrophobic
+ aliphatic Q positive R tiny
+ aliphatic Q positive positive tiny
+ aliphatic Q positive charged tiny
+ aliphatic Q charged R tiny
+ aliphatic Q charged positive tiny
+ aliphatic Q charged charged tiny
+ aliphatic Q K R small
+ aliphatic Q K R tiny
+ aliphatic Q K positive tiny
+ aliphatic Q K charged tiny
+ aliphatic Q K polar tiny
+ aliphatic polar hydrophobic S aliphatic polar hydrophobic polar tiny
+ aliphatic polar hydrophobic S hydrophobic polar charged R hydrophobic
+ aliphatic polar hydrophobic S hydrophobic polar charged R small
+ aliphatic polar hydrophobic S hydrophobic polar charged R tiny
+ aliphatic polar hydrophobic S hydrophobic polar charged positive hydrophobic
+ aliphatic polar hydrophobic S hydrophobic polar charged positive small
+ aliphatic polar hydrophobic S hydrophobic polar charged positive tiny
+ aliphatic polar hydrophobic S hydrophobic polar charged charged hydrophobic
+ aliphatic polar hydrophobic S hydrophobic polar charged charged small
+ aliphatic polar hydrophobic S hydrophobic polar charged charged tiny
+ aliphatic polar hydrophobic S hydrophobic polar charged polar hydrophobic
+ aliphatic polar hydrophobic S hydrophobic polar polar R G
+ aliphatic polar hydrophobic S hydrophobic polar polar positive G
+ aliphatic polar hydrophobic S hydrophobic polar polar charged G
+ aliphatic polar hydrophobic S hydrophobic polar polar polar G
+ aliphatic polar hydrophobic tiny hydrophobic polar charged R G
+ aliphatic polar hydrophobic tiny hydrophobic polar charged positive G
+ aliphatic polar hydrophobic tiny hydrophobic polar charged charged G
+ aliphatic polar hydrophobic tiny hydrophobic polar charged polar G
+ aliphatic polar hydrophobic small L polar hydrophobic charged hydrophobic
+ aliphatic polar G polar aliphatic polar hydrophobic polar small
+ aliphatic polar tiny small aliphatic polar polar R small
+ aliphatic hydrophobic L polar small small hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic hydrophobic aliphatic polar hydrophobic small hydrophobic polar polar polar small
+ aliphatic hydrophobic aliphatic polar hydrophobic small hydrophobic polar polar polar tiny
+ aliphatic hydrophobic aliphatic polar hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ aliphatic hydrophobic aliphatic polar tiny tiny hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic hydrophobic aliphatic polar tiny small hydrophobic polar hydrophobic charged hydrophobic
+ aliphatic hydrophobic aliphatic polar tiny small hydrophobic polar hydrophobic polar small
+ aliphatic hydrophobic hydrophobic charged tiny small hydrophobic polar hydrophobic polar small
+ aliphatic hydrophobic hydrophobic polar tiny polar hydrophobic polar polar charged hydrophobic
+ aliphatic hydrophobic hydrophobic polar tiny tiny hydrophobic polar polar polar hydrophobic
+ aliphatic hydrophobic hydrophobic polar tiny small hydrophobic polar polar charged hydrophobic
+ aliphatic hydrophobic hydrophobic polar small polar hydrophobic polar hydrophobic positive hydrophobic
+ aliphatic hydrophobic hydrophobic polar small tiny aliphatic polar polar polar hydrophobic
+ aliphatic A hydrophobic polar hydrophobic small hydrophobic polar hydrophobic polar small
+ aliphatic A hydrophobic polar hydrophobic small hydrophobic polar hydrophobic polar tiny
+ aliphatic A hydrophobic polar tiny small hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic A hydrophobic polar small small hydrophobic polar hydrophobic polar hydrophobic
+ aliphatic tiny aliphatic polar hydrophobic small hydrophobic polar hydrophobic polar tiny
+ aliphatic tiny hydrophobic polar hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ aliphatic tiny hydrophobic polar hydrophobic small hydrophobic polar hydrophobic charged tiny
+ aliphatic tiny hydrophobic polar tiny small hydrophobic polar hydrophobic charged hydrophobic
+ aliphatic tiny hydrophobic polar tiny small hydrophobic polar hydrophobic charged tiny
+ aliphatic tiny hydrophobic polar tiny small hydrophobic polar hydrophobic polar tiny
+ aliphatic tiny hydrophobic polar small small hydrophobic polar hydrophobic charged tiny
+ aliphatic tiny hydrophobic polar small small hydrophobic polar hydrophobic polar tiny
+ aliphatic small hydrophobic polar hydrophobic small hydrophobic polar charged polar hydrophobic
+ aliphatic small hydrophobic polar hydrophobic small hydrophobic polar hydrophobic positive hydrophobic
+ aliphatic small hydrophobic polar tiny small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic E hydrophobic polar L polar hydrophobic polar small
+ hydrophobic E hydrophobic small L polar hydrophobic polar hydrophobic
+ hydrophobic E hydrophobic small aliphatic polar polar charged hydrophobic
+ hydrophobic E G polar aliphatic polar hydrophobic polar small
+ hydrophobic E G polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic E tiny polar aliphatic polar hydrophobic polar tiny
+ hydrophobic E tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic E small tiny hydrophobic polar positive polar small
+ hydrophobic E small small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic negative hydrophobic tiny L polar hydrophobic polar small
+ hydrophobic negative tiny tiny hydrophobic polar polar charged small
+ hydrophobic negative tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic negative small tiny hydrophobic polar positive polar small
+ hydrophobic negative small small hydrophobic Q hydrophobic polar small
+ hydrophobic charged hydrophobic tiny L polar hydrophobic charged hydrophobic
+ hydrophobic charged hydrophobic small L polar hydrophobic positive tiny
+ hydrophobic charged hydrophobic small L polar hydrophobic charged tiny
+ hydrophobic charged hydrophobic small aliphatic polar polar R small
+ hydrophobic charged hydrophobic small hydrophobic polar positive polar tiny
+ hydrophobic charged G tiny aliphatic polar hydrophobic polar small
+ hydrophobic charged G small aliphatic polar hydrophobic polar small
+ hydrophobic charged G small hydrophobic polar hydrophobic charged small
+ hydrophobic charged G small hydrophobic polar hydrophobic charged tiny
+ hydrophobic charged tiny S aliphatic polar hydrophobic polar small
+ hydrophobic charged tiny S hydrophobic polar hydrophobic polar tiny
+ hydrophobic charged tiny tiny hydrophobic polar hydrophobic positive small
+ hydrophobic charged tiny tiny hydrophobic polar hydrophobic charged small
+ hydrophobic charged tiny small aliphatic polar hydrophobic R small
+ hydrophobic charged tiny small hydrophobic Q hydrophobic polar small
+ hydrophobic charged tiny small hydrophobic polar hydrophobic R small
+ hydrophobic Q K R small
+ hydrophobic Q K R tiny
+ hydrophobic Q K positive tiny
+ hydrophobic Q K charged tiny
+ hydrophobic polar aliphatic Q K polar hydrophobic
+ hydrophobic polar aliphatic Q K polar small
+ hydrophobic polar hydrophobic Q K polar small
+ hydrophobic polar hydrophobic S hydrophobic polar charged R hydrophobic
+ hydrophobic polar hydrophobic S hydrophobic polar charged R small
+ hydrophobic polar hydrophobic S hydrophobic polar charged R tiny
+ hydrophobic polar hydrophobic S hydrophobic polar charged positive hydrophobic
+ hydrophobic polar hydrophobic S hydrophobic polar charged positive small
+ hydrophobic polar hydrophobic S hydrophobic polar charged positive tiny
+ hydrophobic polar hydrophobic tiny L polar hydrophobic charged hydrophobic
+ hydrophobic polar hydrophobic small L polar hydrophobic positive tiny
+ hydrophobic polar hydrophobic small L polar hydrophobic charged tiny
+ hydrophobic polar G polar aliphatic polar polar charged hydrophobic
+ hydrophobic polar G polar aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic polar G tiny aliphatic polar hydrophobic polar small
+ hydrophobic polar G small hydrophobic polar hydrophobic positive tiny
+ hydrophobic polar tiny polar aliphatic polar hydrophobic R hydrophobic
+ hydrophobic polar tiny S aliphatic polar hydrophobic polar small
+ hydrophobic polar tiny tiny aliphatic polar polar charged tiny
+ hydrophobic polar tiny tiny hydrophobic polar polar charged G
+ hydrophobic polar tiny small aliphatic polar polar charged tiny
+ hydrophobic polar tiny small aliphatic polar hydrophobic R hydrophobic
+ hydrophobic polar tiny small hydrophobic Q hydrophobic polar small
+ hydrophobic polar tiny small hydrophobic polar polar R tiny
+ hydrophobic polar tiny small hydrophobic polar hydrophobic charged G
+ hydrophobic L E small small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic L polar hydrophobic small hydrophobic polar polar positive tiny
+ hydrophobic L polar hydrophobic small hydrophobic polar polar charged tiny
+ hydrophobic L polar small tiny hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic L polar small small hydrophobic polar polar charged tiny
+ hydrophobic aliphatic E hydrophobic polar hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic aliphatic E hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic aliphatic E small tiny hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic E small small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic aliphatic negative hydrophobic polar aliphatic polar hydrophobic polar small
+ hydrophobic aliphatic negative tiny polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic negative small polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic negative small tiny hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic charged hydrophobic polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic aliphatic charged tiny polar aliphatic polar hydrophobic polar small
+ hydrophobic aliphatic charged small polar aliphatic polar hydrophobic polar small
+ hydrophobic aliphatic polar hydrophobic polar aliphatic polar positive polar hydrophobic
+ hydrophobic aliphatic polar hydrophobic polar aliphatic polar polar charged hydrophobic
+ hydrophobic aliphatic polar hydrophobic small hydrophobic polar charged polar tiny
+ hydrophobic aliphatic polar G polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic aliphatic polar tiny small aliphatic polar polar charged small
+ hydrophobic aliphatic polar tiny small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic aliphatic polar tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic aliphatic polar tiny small hydrophobic polar polar R small
+ hydrophobic aliphatic polar tiny small hydrophobic polar polar charged tiny
+ hydrophobic aliphatic polar small tiny hydrophobic polar polar charged tiny
+ hydrophobic aliphatic polar small tiny hydrophobic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic E hydrophobic polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E hydrophobic small L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic E hydrophobic small aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E hydrophobic small hydrophobic polar hydrophobic positive tiny
+ hydrophobic hydrophobic E hydrophobic small hydrophobic polar hydrophobic charged tiny
+ hydrophobic hydrophobic E G polar aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic E G polar hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E tiny polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E small polar aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic E small small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic E small small hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic negative hydrophobic small aliphatic polar hydrophobic polar tiny
+ hydrophobic hydrophobic negative tiny tiny hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic negative tiny small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic charged hydrophobic tiny aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic charged hydrophobic tiny aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic charged hydrophobic tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic charged hydrophobic small aliphatic polar polar charged small
+ hydrophobic hydrophobic charged hydrophobic small aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic charged hydrophobic small aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic charged tiny polar L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic charged tiny tiny hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic charged tiny tiny hydrophobic polar hydrophobic charged small
+ hydrophobic hydrophobic charged tiny small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic charged tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic charged tiny small hydrophobic polar hydrophobic positive tiny
+ hydrophobic hydrophobic charged small polar hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic polar hydrophobic tiny hydrophobic polar charged charged tiny
+ hydrophobic hydrophobic polar G polar aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic polar G small hydrophobic polar hydrophobic charged tiny
+ hydrophobic hydrophobic polar tiny polar aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar tiny S hydrophobic polar hydrophobic polar tiny
+ hydrophobic hydrophobic polar tiny tiny aliphatic polar polar charged tiny
+ hydrophobic hydrophobic polar tiny tiny hydrophobic polar polar charged G
+ hydrophobic hydrophobic polar tiny tiny hydrophobic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar tiny small aliphatic Q hydrophobic charged hydrophobic
+ hydrophobic hydrophobic polar tiny small aliphatic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic polar tiny small aliphatic polar polar charged tiny
+ hydrophobic hydrophobic polar tiny small aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar tiny small aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic polar tiny small hydrophobic Q hydrophobic charged hydrophobic
+ hydrophobic hydrophobic polar tiny small hydrophobic polar polar R tiny
+ hydrophobic hydrophobic polar tiny small hydrophobic polar polar positive tiny
+ hydrophobic hydrophobic polar tiny small hydrophobic polar hydrophobic charged G
+ hydrophobic hydrophobic polar small polar aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar small tiny hydrophobic polar charged charged small
+ hydrophobic hydrophobic polar small tiny hydrophobic polar charged charged tiny
+ hydrophobic hydrophobic polar small small aliphatic Q hydrophobic charged hydrophobic
+ hydrophobic hydrophobic polar small small aliphatic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic polar small small aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic polar small small aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic polar small small hydrophobic Q hydrophobic charged hydrophobic
+ hydrophobic hydrophobic L negative small small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic L charged hydrophobic polar hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic L polar small S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic E hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic negative hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged hydrophobic polar hydrophobic polar polar polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged tiny polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged small polar L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged small polar aliphatic polar polar polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged small polar hydrophobic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small S aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic charged small S hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small tiny aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small tiny hydrophobic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small small L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small small aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic charged small small hydrophobic polar polar charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar tiny S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar tiny small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic aliphatic polar tiny small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar tiny small hydrophobic polar polar charged small
+ hydrophobic hydrophobic aliphatic polar tiny small hydrophobic polar polar charged tiny
+ hydrophobic hydrophobic aliphatic polar small small hydrophobic Q hydrophobic polar hydrophobic
+ hydrophobic hydrophobic aliphatic polar small small hydrophobic polar polar charged small
+ hydrophobic hydrophobic aliphatic polar small small hydrophobic polar polar charged tiny
+ hydrophobic hydrophobic hydrophobic E hydrophobic small L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic E hydrophobic small aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic E hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic E tiny small hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic E small small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic negative hydrophobic small aliphatic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic negative hydrophobic small hydrophobic polar polar positive small
+ hydrophobic hydrophobic hydrophobic negative hydrophobic small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic negative tiny tiny hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic negative tiny small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic negative small small hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged hydrophobic polar L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic charged hydrophobic tiny hydrophobic polar polar positive small
+ hydrophobic hydrophobic hydrophobic charged hydrophobic tiny hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged G tiny hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic charged G tiny hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic charged tiny polar L polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic charged tiny S hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic hydrophobic hydrophobic charged tiny tiny hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged tiny tiny hydrophobic polar hydrophobic charged small
+ hydrophobic hydrophobic hydrophobic charged small polar L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small S aliphatic polar polar polar hydrophobic
+ hydrophobic hydrophobic hydrophobic charged small tiny hydrophobic polar hydrophobic positive small
+ hydrophobic hydrophobic hydrophobic charged small small L polar hydrophobic charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic polar aliphatic polar hydrophobic charged small
+ hydrophobic hydrophobic hydrophobic polar hydrophobic tiny hydrophobic polar charged charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic tiny hydrophobic polar charged charged small
+ hydrophobic hydrophobic hydrophobic polar hydrophobic tiny hydrophobic polar polar positive tiny
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small aliphatic polar hydrophobic R hydrophobic
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small hydrophobic polar polar R small
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small hydrophobic polar polar R tiny
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small hydrophobic polar polar charged G
+ hydrophobic hydrophobic hydrophobic polar hydrophobic small hydrophobic polar hydrophobic R tiny
+ hydrophobic hydrophobic hydrophobic polar G tiny hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic polar tiny polar aliphatic polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar tiny S hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic polar tiny tiny aliphatic polar polar charged tiny
+ hydrophobic hydrophobic hydrophobic polar tiny tiny hydrophobic polar polar charged hydrophobic
+ hydrophobic hydrophobic hydrophobic polar tiny small aliphatic polar polar charged tiny
+ hydrophobic hydrophobic hydrophobic polar tiny small hydrophobic polar polar R hydrophobic
+ hydrophobic hydrophobic hydrophobic polar tiny small hydrophobic polar polar R tiny
+ hydrophobic hydrophobic hydrophobic polar tiny small hydrophobic polar polar positive tiny
+ hydrophobic hydrophobic hydrophobic polar tiny small hydrophobic polar polar charged G
+ hydrophobic hydrophobic hydrophobic polar small polar aliphatic polar hydrophobic positive hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small S hydrophobic polar hydrophobic polar small
+ hydrophobic hydrophobic hydrophobic polar small tiny aliphatic polar polar charged tiny
+ hydrophobic hydrophobic hydrophobic polar small tiny hydrophobic polar polar positive tiny
+ hydrophobic hydrophobic hydrophobic polar small small aliphatic polar polar charged tiny
+ hydrophobic hydrophobic hydrophobic polar small small hydrophobic polar polar R hydrophobic
+ hydrophobic hydrophobic hydrophobic polar small small hydrophobic polar polar R tiny
+ hydrophobic hydrophobic hydrophobic polar small small hydrophobic polar polar charged G
+ hydrophobic A hydrophobic charged small polar hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic A hydrophobic polar hydrophobic tiny hydrophobic polar polar charged small
+ hydrophobic A hydrophobic polar hydrophobic tiny hydrophobic polar polar charged tiny
+ hydrophobic A hydrophobic polar hydrophobic small hydrophobic polar polar charged small
+ hydrophobic A hydrophobic polar hydrophobic small hydrophobic polar polar charged tiny
+ hydrophobic S hydrophobic polar charged R G
+ hydrophobic S hydrophobic polar charged positive G
+ hydrophobic tiny L polar charged positive small
+ hydrophobic tiny L polar charged charged small
+ hydrophobic tiny L polar polar R small
+ hydrophobic tiny L polar K polar hydrophobic
+ hydrophobic tiny L polar hydrophobic positive tiny
+ hydrophobic tiny L polar hydrophobic charged tiny
+ hydrophobic tiny L polar hydrophobic small hydrophobic polar hydrophobic polar small
+ hydrophobic tiny L polar hydrophobic small hydrophobic polar hydrophobic polar tiny
+ hydrophobic tiny aliphatic polar polar R tiny
+ hydrophobic tiny aliphatic polar K positive hydrophobic
+ hydrophobic tiny hydrophobic E hydrophobic small hydrophobic polar hydrophobic polar tiny
+ hydrophobic tiny hydrophobic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic tiny hydrophobic E tiny small hydrophobic polar hydrophobic polar small
+ hydrophobic tiny hydrophobic E small small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic tiny hydrophobic E small small hydrophobic polar hydrophobic polar small
+ hydrophobic tiny hydrophobic charged G small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic tiny hydrophobic charged G small hydrophobic polar hydrophobic polar small
+ hydrophobic tiny hydrophobic charged tiny tiny hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic tiny hydrophobic charged tiny tiny hydrophobic polar hydrophobic polar small
+ hydrophobic tiny hydrophobic charged small tiny hydrophobic polar hydrophobic polar small
+ hydrophobic tiny hydrophobic polar hydrophobic tiny hydrophobic polar polar charged tiny
+ hydrophobic tiny hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic polar G
+ hydrophobic tiny hydrophobic polar hydrophobic small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic tiny hydrophobic polar hydrophobic small hydrophobic polar hydrophobic positive tiny
+ hydrophobic tiny hydrophobic polar tiny tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic tiny hydrophobic polar tiny small hydrophobic polar polar charged small
+ hydrophobic tiny hydrophobic polar tiny small hydrophobic polar hydrophobic positive tiny
+ hydrophobic tiny hydrophobic polar small tiny hydrophobic polar hydrophobic polar tiny
+ hydrophobic tiny hydrophobic polar small small hydrophobic polar hydrophobic positive tiny
+ hydrophobic small L polar positive polar G
+ hydrophobic small L polar charged polar G
+ hydrophobic small aliphatic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic charged small polar L polar polar polar hydrophobic
+ hydrophobic small aliphatic charged small polar L polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic charged small polar aliphatic polar polar charged hydrophobic
+ hydrophobic small aliphatic charged small polar aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic charged small polar hydrophobic polar polar charged hydrophobic
+ hydrophobic small aliphatic charged small tiny L polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic charged small tiny aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic charged small small L polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic charged small small aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic polar tiny polar aliphatic polar polar polar hydrophobic
+ hydrophobic small aliphatic polar tiny small aliphatic polar polar polar small
+ hydrophobic small aliphatic polar tiny small aliphatic polar polar polar tiny
+ hydrophobic small aliphatic polar small polar L polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small polar L polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic polar small S L polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small S L polar polar polar hydrophobic
+ hydrophobic small aliphatic polar small S L polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic polar small S aliphatic polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small S aliphatic polar polar polar hydrophobic
+ hydrophobic small aliphatic polar small S aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small aliphatic polar small S hydrophobic polar polar charged hydrophobic
+ hydrophobic small aliphatic polar small tiny L polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic polar small tiny aliphatic polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic polar small tiny hydrophobic polar hydrophobic charged hydrophobic
+ hydrophobic small aliphatic polar small small aliphatic polar polar polar small
+ hydrophobic small aliphatic polar small small aliphatic polar polar polar tiny
+ hydrophobic small hydrophobic E hydrophobic small L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic E tiny small hydrophobic polar hydrophobic polar small
+ hydrophobic small hydrophobic negative hydrophobic small L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic negative tiny small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic charged hydrophobic tiny hydrophobic polar hydrophobic polar G
+ hydrophobic small hydrophobic charged hydrophobic small L polar hydrophobic charged hydrophobic
+ hydrophobic small hydrophobic charged hydrophobic small L polar hydrophobic polar tiny
+ hydrophobic small hydrophobic charged G small hydrophobic polar hydrophobic polar small
+ hydrophobic small hydrophobic charged tiny tiny hydrophobic polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic charged tiny tiny hydrophobic polar hydrophobic polar small
+ hydrophobic small hydrophobic charged tiny small aliphatic polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic charged small polar L polar hydrophobic charged hydrophobic
+ hydrophobic small hydrophobic charged small tiny L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic charged small small L polar hydrophobic charged hydrophobic
+ hydrophobic small hydrophobic Q positive R hydrophobic
+ hydrophobic small hydrophobic Q charged R hydrophobic
+ hydrophobic small hydrophobic Q K R hydrophobic
+ hydrophobic small hydrophobic polar hydrophobic polar L polar hydrophobic polar small
+ hydrophobic small hydrophobic polar hydrophobic tiny aliphatic polar polar polar tiny
+ hydrophobic small hydrophobic polar hydrophobic tiny hydrophobic polar polar positive small
+ hydrophobic small hydrophobic polar hydrophobic small L polar hydrophobic charged hydrophobic
+ hydrophobic small hydrophobic polar hydrophobic small L polar hydrophobic polar tiny
+ hydrophobic small hydrophobic polar hydrophobic small hydrophobic polar polar R small
+ hydrophobic small hydrophobic polar hydrophobic small hydrophobic polar polar R tiny
+ hydrophobic small hydrophobic polar tiny polar aliphatic polar hydrophobic polar small
+ hydrophobic small hydrophobic polar tiny tiny hydrophobic polar polar charged tiny
+ hydrophobic small hydrophobic polar tiny small aliphatic polar polar polar hydrophobic
+ hydrophobic small hydrophobic polar tiny small aliphatic polar polar polar tiny
+ hydrophobic small hydrophobic polar small S L polar polar charged hydrophobic
+ hydrophobic small hydrophobic polar small S L polar polar polar hydrophobic
+ hydrophobic small hydrophobic polar small S L polar hydrophobic polar hydrophobic
+ hydrophobic small hydrophobic polar small S aliphatic polar polar charged hydrophobic
+ hydrophobic small hydrophobic polar small S aliphatic polar polar polar hydrophobic
+ hydrophobic small hydrophobic polar small tiny L polar hydrophobic charged hydrophobic
+ hydrophobic small hydrophobic polar small tiny hydrophobic polar polar R tiny
+ hydrophobic small hydrophobic polar small tiny hydrophobic polar polar positive tiny
+ hydrophobic small hydrophobic polar small small aliphatic polar polar polar tiny
+ hydrophobic small hydrophobic polar small small hydrophobic polar polar R hydrophobic
+ A aliphatic polar hydrophobic small hydrophobic polar hydrophobic polar small
+ A hydrophobic E hydrophobic polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic E hydrophobic polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic E tiny polar aliphatic polar hydrophobic polar small
+ A hydrophobic E tiny polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic E tiny polar hydrophobic polar hydrophobic polar small
+ A hydrophobic E tiny polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic E small polar aliphatic polar hydrophobic polar small
+ A hydrophobic E small polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic E small polar hydrophobic polar hydrophobic polar small
+ A hydrophobic E small polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic negative hydrophobic polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic negative hydrophobic polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic negative tiny polar aliphatic polar hydrophobic polar small
+ A hydrophobic negative tiny polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic negative tiny polar hydrophobic polar hydrophobic polar small
+ A hydrophobic negative tiny polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic negative small polar aliphatic polar hydrophobic polar small
+ A hydrophobic negative small polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic negative small polar hydrophobic polar hydrophobic polar small
+ A hydrophobic negative small polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic charged hydrophobic polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic charged G polar aliphatic polar hydrophobic polar small
+ A hydrophobic charged G polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic charged tiny polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic charged small polar aliphatic polar hydrophobic polar tiny
+ A hydrophobic charged small polar hydrophobic polar hydrophobic polar hydrophobic
+ A hydrophobic polar hydrophobic tiny hydrophobic polar hydrophobic charged hydrophobic
+ A hydrophobic polar hydrophobic small hydrophobic polar hydrophobic charged tiny
+ A hydrophobic polar G polar aliphatic polar hydrophobic polar small
+ A hydrophobic polar G polar hydrophobic polar hydrophobic polar tiny
+ A hydrophobic polar tiny polar hydrophobic polar hydrophobic charged tiny
+ A hydrophobic polar tiny tiny hydrophobic polar hydrophobic charged hydrophobic
+ A hydrophobic polar tiny small hydrophobic polar hydrophobic charged tiny
+ A hydrophobic polar tiny small hydrophobic polar hydrophobic polar tiny
+ A hydrophobic polar small polar aliphatic polar hydrophobic polar hydrophobic
+ A hydrophobic polar small polar hydrophobic polar hydrophobic charged tiny
+ A hydrophobic polar small small hydrophobic polar hydrophobic charged tiny
+ A hydrophobic polar small small hydrophobic polar hydrophobic polar tiny
+ tiny L Q charged charged hydrophobic
+ tiny L Q charged polar hydrophobic
+ tiny L Q polar R small
+ tiny L Q polar R tiny
+ tiny L Q polar positive small
+ tiny L Q polar positive tiny
+ tiny L Q polar charged small
+ tiny L Q polar charged tiny
+ tiny L Q hydrophobic R tiny
+ tiny L Q hydrophobic positive tiny
+ tiny L Q hydrophobic charged tiny
+ tiny L Q hydrophobic polar tiny
+ tiny L polar K R hydrophobic
+ tiny L polar K positive hydrophobic
+ tiny L polar K charged hydrophobic
+ tiny L polar hydrophobic small hydrophobic polar hydrophobic polar small
+ tiny L polar hydrophobic small hydrophobic polar hydrophobic polar tiny
+ tiny aliphatic E hydrophobic small hydrophobic polar hydrophobic polar small
+ tiny aliphatic charged hydrophobic small L polar hydrophobic polar hydrophobic
+ tiny aliphatic charged hydrophobic small aliphatic polar hydrophobic polar hydrophobic
+ tiny aliphatic Q hydrophobic R tiny
+ tiny aliphatic Q hydrophobic positive tiny
+ tiny aliphatic polar K R hydrophobic
+ tiny aliphatic polar hydrophobic R G
+ tiny aliphatic polar hydrophobic small L polar hydrophobic polar hydrophobic
+ tiny aliphatic polar hydrophobic small aliphatic polar hydrophobic polar hydrophobic
+ tiny aliphatic polar hydrophobic small hydrophobic polar hydrophobic positive small
+ tiny aliphatic polar tiny small hydrophobic polar hydrophobic positive hydrophobic
+ tiny aliphatic polar small polar aliphatic polar hydrophobic polar hydrophobic
+ tiny aliphatic polar small small hydrophobic polar hydrophobic positive hydrophobic
+ tiny hydrophobic E hydrophobic polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic E G polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic E G polar hydrophobic polar hydrophobic polar tiny
+ tiny hydrophobic E tiny polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic E tiny small hydrophobic polar hydrophobic polar small
+ tiny hydrophobic E small polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic negative hydrophobic polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic negative G polar aliphatic polar hydrophobic polar small
+ tiny hydrophobic negative G polar hydrophobic polar hydrophobic polar tiny
+ tiny hydrophobic negative tiny polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic negative small polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic charged tiny polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic charged tiny small L polar hydrophobic polar hydrophobic
+ tiny hydrophobic charged tiny small aliphatic polar hydrophobic polar hydrophobic
+ tiny hydrophobic charged small polar aliphatic polar hydrophobic polar tiny
+ tiny hydrophobic charged small small L polar hydrophobic polar hydrophobic
+ tiny hydrophobic charged small small aliphatic polar hydrophobic polar hydrophobic
+ tiny hydrophobic Q K polar small
+ tiny hydrophobic polar hydrophobic polar aliphatic polar hydrophobic charged hydrophobic
+ tiny hydrophobic polar hydrophobic small aliphatic polar polar polar tiny
+ tiny hydrophobic polar hydrophobic small aliphatic polar hydrophobic charged hydrophobic
+ tiny hydrophobic polar hydrophobic small hydrophobic polar positive polar small
+ tiny hydrophobic polar hydrophobic small hydrophobic polar charged charged small
+ tiny hydrophobic polar hydrophobic small hydrophobic polar charged charged tiny
+ tiny hydrophobic polar tiny tiny hydrophobic polar hydrophobic polar G
+ tiny hydrophobic polar tiny small L polar hydrophobic polar hydrophobic
+ tiny hydrophobic polar tiny small hydrophobic polar hydrophobic positive tiny
+ tiny hydrophobic polar small polar L polar polar polar hydrophobic
+ tiny hydrophobic polar small small L polar polar polar small
+ tiny hydrophobic polar small small L polar hydrophobic polar hydrophobic
+ tiny hydrophobic polar small small hydrophobic Q hydrophobic polar hydrophobic
+ tiny hydrophobic polar small small hydrophobic polar charged charged hydrophobic
+ tiny S hydrophobic polar polar charged tiny
+ tiny tiny L polar polar charged tiny
+ tiny tiny aliphatic polar polar R tiny
+ tiny tiny aliphatic polar polar positive tiny
+ tiny tiny hydrophobic polar positive positive tiny
+ tiny tiny hydrophobic polar charged positive tiny
+ tiny tiny hydrophobic polar polar R tiny
+ tiny small L polar polar charged tiny
+ tiny small hydrophobic polar positive positive tiny
+ tiny small hydrophobic polar hydrophobic R G
+ small polar L polar positive polar G
+ small L Q charged charged hydrophobic
+ small L Q polar R small
+ small L Q polar R tiny
+ small L Q hydrophobic R tiny
+ small L Q hydrophobic positive tiny
+ small L Q hydrophobic charged tiny
+ small L polar hydrophobic small hydrophobic polar polar positive hydrophobic
+ small L polar hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ small aliphatic E hydrophobic small hydrophobic polar polar polar small
+ small aliphatic E tiny small hydrophobic polar hydrophobic polar hydrophobic
+ small aliphatic charged hydrophobic small hydrophobic polar hydrophobic charged hydrophobic
+ small aliphatic charged tiny small L polar hydrophobic polar hydrophobic
+ small aliphatic charged tiny small aliphatic polar hydrophobic polar hydrophobic
+ small aliphatic charged small polar L polar polar polar hydrophobic
+ small aliphatic charged small polar L polar hydrophobic polar hydrophobic
+ small aliphatic charged small tiny L polar hydrophobic polar hydrophobic
+ small aliphatic charged small tiny aliphatic polar hydrophobic polar hydrophobic
+ small aliphatic charged small tiny hydrophobic polar hydrophobic charged hydrophobic
+ small aliphatic charged small small L polar hydrophobic charged hydrophobic
+ small aliphatic charged small small aliphatic polar hydrophobic charged hydrophobic
+ small aliphatic Q hydrophobic R tiny
+ small aliphatic Q hydrophobic positive tiny
+ small aliphatic polar hydrophobic polar L polar hydrophobic polar hydrophobic
+ small aliphatic polar hydrophobic polar aliphatic polar positive polar hydrophobic
+ small aliphatic polar hydrophobic polar aliphatic polar hydrophobic charged hydrophobic
+ small aliphatic polar hydrophobic small hydrophobic polar charged polar tiny
+ small aliphatic polar hydrophobic small hydrophobic polar polar R small
+ small aliphatic polar hydrophobic small hydrophobic polar hydrophobic R small
+ small aliphatic polar tiny polar aliphatic polar charged polar hydrophobic
+ small aliphatic polar tiny polar aliphatic polar hydrophobic polar hydrophobic
+ small aliphatic polar tiny small L polar hydrophobic polar hydrophobic
+ small aliphatic polar tiny small aliphatic polar polar polar tiny
+ small aliphatic polar tiny small aliphatic polar hydrophobic polar hydrophobic
+ small aliphatic polar tiny small aliphatic polar hydrophobic polar small
+ small aliphatic polar tiny small hydrophobic polar polar R small
+ small aliphatic polar small S L polar polar charged hydrophobic
+ small aliphatic polar small S L polar polar polar hydrophobic
+ small aliphatic polar small S L polar hydrophobic polar hydrophobic
+ small aliphatic polar small S aliphatic polar hydrophobic polar hydrophobic
+ small aliphatic polar small S hydrophobic polar hydrophobic charged hydrophobic
+ small aliphatic polar small tiny L polar hydrophobic charged hydrophobic
+ small aliphatic polar small tiny aliphatic polar hydrophobic charged hydrophobic
+ small aliphatic polar small small aliphatic polar polar polar tiny
+ small hydrophobic E hydrophobic small L polar hydrophobic polar hydrophobic
+ small hydrophobic E G polar aliphatic polar hydrophobic polar small
+ small hydrophobic E G polar hydrophobic polar hydrophobic polar tiny
+ small hydrophobic E tiny polar aliphatic polar hydrophobic polar tiny
+ small hydrophobic negative G polar aliphatic polar hydrophobic polar small
+ small hydrophobic negative tiny polar aliphatic polar hydrophobic polar tiny
+ small hydrophobic charged hydrophobic polar L polar hydrophobic charged hydrophobic
+ small hydrophobic charged hydrophobic small L polar hydrophobic positive hydrophobic
+ small hydrophobic charged hydrophobic small L polar hydrophobic polar tiny
+ small hydrophobic charged tiny polar aliphatic polar hydrophobic polar tiny
+ small hydrophobic charged small polar L polar hydrophobic charged hydrophobic
+ small hydrophobic charged small tiny L polar hydrophobic charged hydrophobic
+ small hydrophobic polar hydrophobic polar L polar hydrophobic charged hydrophobic
+ small hydrophobic polar hydrophobic polar aliphatic polar polar positive small
+ small hydrophobic polar hydrophobic tiny hydrophobic polar positive polar tiny
+ small hydrophobic polar hydrophobic small L polar hydrophobic positive hydrophobic
+ small hydrophobic polar hydrophobic small L polar hydrophobic polar tiny
+ small hydrophobic polar hydrophobic small aliphatic polar polar positive small
+ small hydrophobic polar hydrophobic small aliphatic polar polar charged tiny
+ small hydrophobic polar hydrophobic small hydrophobic polar positive polar tiny
+ small hydrophobic polar tiny polar aliphatic polar polar positive hydrophobic
+ small hydrophobic polar tiny polar aliphatic polar hydrophobic positive hydrophobic
+ small hydrophobic polar tiny tiny aliphatic polar hydrophobic polar hydrophobic
+ small hydrophobic polar tiny tiny hydrophobic polar hydrophobic polar G
+ small hydrophobic polar tiny small aliphatic polar polar polar tiny
+ small hydrophobic polar tiny small aliphatic polar hydrophobic charged hydrophobic
+ small hydrophobic polar tiny small hydrophobic polar positive charged small
+ small hydrophobic polar tiny small hydrophobic polar positive polar small
+ small hydrophobic polar tiny small hydrophobic polar polar charged G
+ small hydrophobic polar small S L polar polar charged hydrophobic
+ small hydrophobic polar small S L polar polar polar hydrophobic
+ small hydrophobic polar small tiny hydrophobic polar positive polar small
+ small hydrophobic polar small tiny hydrophobic polar charged charged small
+ small hydrophobic polar small tiny hydrophobic polar charged charged tiny
+ small hydrophobic polar small small hydrophobic polar positive charged tiny
+ small hydrophobic polar small small hydrophobic polar positive polar tiny
+ small tiny L polar positive polar small
+ small tiny L polar positive polar tiny
+ small tiny L polar charged polar tiny
+ small tiny aliphatic polar positive R tiny
+ small tiny aliphatic polar positive positive tiny
+ small tiny aliphatic polar charged R tiny
+ small tiny aliphatic polar charged positive tiny
+ small small aliphatic polar positive R tiny
+ small small hydrophobic Q K R hydrophobic
+ small small hydrophobic Q K positive hydrophobic
