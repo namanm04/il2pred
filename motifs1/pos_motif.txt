@@ -1,0 +1,28 @@
+MERCI - Summary of options:
+ -p    train_pos.fasta
+ -n    train_neg.fasta
+ -k 	  10
+ -fp   10
+ -fn   0
+ -o    motifs
+ -l    10000
+ -s    10000
+ -c    NONE
+ -g    0
+ -gl   1
+ -para 0
+
+
+Motifs:
+ A L E G
+ L E G S
+ A L E G S
+ A L E G S L
+ L A L E G
+ L E G S L
+ A L E G S L Q
+ E G S L Q
+ L A L E G S
+ L A L E G S L
+ L E G S L Q
+ L Q K R
