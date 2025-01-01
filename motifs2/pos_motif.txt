@@ -14,15 +14,13 @@ MERCI - Summary of options:
 
 
 Motifs:
- A L E G
- L E G S
- A L E G S
- A L E G S L
- L A L E G
- L E G S L
- A L E G S L Q
- E G S L Q
- L A L E G S
- L A L E G S L
- L E G S L Q
- L Q K R
+ Q K R G
+ L Q K R G
+ S L Q K R G
+ A L E G S L Q K R G
+ E G S L Q K R G
+ G S L Q K R G
+ L E G S L Q K R G
+ L A L E G S L Q K R G
+ P L A L E G S L Q K R G
+ Q P L A L E G S L Q K R G
