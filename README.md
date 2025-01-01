@@ -1,4 +1,4 @@
-# il2Pred
+# il2pred
 A computational method to predict il2 inducing or il2 non-inducing peptides based on amino acid composition or motifs
 
 ## Introduction
